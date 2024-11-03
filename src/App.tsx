@@ -96,7 +96,9 @@ function App() {
            <script src="https://player.vimeo.com/api/player.js"></script>
       </div>
 
-      <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 border border-green-700 rounded mx-auto w-[1024px]">
+      <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 border border-green-700 rounded mx-auto w-[1024px]" onClick={() => {
+          window.location.href = 'https://invoice.gamecms.com.br/client/subscriptions/VolejRejNm/purchase';
+      }}>
         Comprar Agora
       </button>
 
