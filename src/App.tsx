@@ -76,7 +76,8 @@ function App() {
       </div>
 
       <div className="mx-auto">
-      <div><iframe src="https://player.vimeo.com/video/1025858770?h=33469dc7a2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Plataforma Game CMS - A melhor forma de  Gerir Jogos Online"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+      <div><iframe src="https://player.vimeo.com/video/1025858770?h=33469dc7a2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"  allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Plataforma Game CMS - A melhor forma de  Gerir Jogos Online"></iframe></div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
       </div>
 
       {/* Rodapé */}
