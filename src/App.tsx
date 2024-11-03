@@ -1,5 +1,5 @@
 import "./App.css";
-import ImgBanner from "../src/assets/banner.png";
+import ImgBanner from "../src/assets/logo-game-cms.png";
 
 function App() {
   return (
@@ -11,23 +11,39 @@ function App() {
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
-                src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
-                className="h-8 w-auto"
+                src={ImgBanner}
+                className="h-20 w-auto"
               />
             </a>
           </div>
           <div className="flex">
+            
+            
+            <span className="hidden sm:block mr-2">
+              <button
+                type="button"
+                className="inline-flex items-center rounded-md px-5 py-3 text-lg font-semibold text-white bg-yellow-500 hover:bg-yellow-600"
+                onClick={() => {
+                  window.location.href = 'https://invoice.gamecms.com.br/client/register?company_key=2RIDDxYMpar1FNgFrzjKBL4yRkCwp7GQ';
+                }}
+              >
+                Criar Conta 
+              </button>
+            </span>
+
             <span className="hidden sm:block">
               <button
                 type="button"
                 className="inline-flex items-center rounded-md px-5 py-3 text-lg font-semibold text-white bg-red-500 hover:bg-red-600"
                 onClick={() => {
-                  window.location.href = 'https://api.whatsapp.com/send/?phone=5551991007356&text=ola+gostaria+de+contratar+a+gamecms&type=phone_number&app_absent=0';
+                  window.location.href = 'https://invoice.gamecms.com.br/client/login?company_key=2RIDDxYMpar1FNgFrzjKBL4yRkCwp7GQ';
                 }}
               >
-                Solicitar orçamento
+                Entrar 
               </button>
             </span>
+
+
           </div>
         </nav>
       </header>
@@ -54,7 +70,7 @@ function App() {
                       window.location.href = 'https://api.whatsapp.com/send/?phone=5551991007356&text=ola+gostaria+de+contratar+a+gamecms&type=phone_number&app_absent=0';
                     }}
                   >
-                    Solicitar orçamento
+                    Solicitar orçamento no WhatsApp
                   </button>
                 </span>
               </div>
@@ -76,9 +92,13 @@ function App() {
       </div>
 
       <div className="mx-auto">
-      <div><iframe src="https://player.vimeo.com/video/1025858770?h=33469dc7a2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"  allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Plataforma Game CMS - A melhor forma de  Gerir Jogos Online"></iframe></div>
-      <script src="https://player.vimeo.com/api/player.js"></script>
+          <iframe className="mt-2" width="1024" height="768" src="https://player.vimeo.com/video/1025858770?h=33469dc7a2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"  allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Plataforma Game CMS - A melhor forma de  Gerir Jogos Online"></iframe>
+           <script src="https://player.vimeo.com/api/player.js"></script>
       </div>
+
+      <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 border border-green-700 rounded mx-auto w-[1024px]">
+        Comprar Agora
+      </button>
 
       {/* Rodapé */}
       <footer className="footer">
