@@ -1,5 +1,5 @@
 import "./App.css";
-import ImgBanner from "../src/assets/logo-game-cms.png";
+import ImgBanner from "/assets/logo-game-cms.png";
 
 function App() {
   return (
