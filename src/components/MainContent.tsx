@@ -66,15 +66,15 @@ export function MainContent() {
     <p className="text-lg text-red-500 font-serif font-semibold">
      A melhor solução para seu Game
     </p>
-    <p className="text-white text-2xl font-serif font-semibold">
+    <p className="text-white text-2xl font-serif font-semibold mt-2">
      Plataforma customizavel
     </p>
    </div>
 
    <div className="mx-auto">
-    <div className="flex justify-center mt-8">
+    <div className="flex justify-center">
      <iframe
-      className="flex justify-center mt-8"
+      className="flex justify-center"
       width="1024"
       height="768"
       src="https://player.vimeo.com/video/1025858770?h=33469dc7a2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
@@ -84,9 +84,9 @@ export function MainContent() {
      <script src="https://player.vimeo.com/api/player.js"></script>
     </div>
 
-    <div className="flex justify-center mt-6">
+    <div className="flex justify-center">
      <button
-      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded mb-10 w-1/2"
+      className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 border border-red-700 rounded mb-10 w-full max-w-5xl"
       onClick={() => {
        window.location.href =
         "https://invoice.gamecms.com.br/client/subscriptions/VolejRejNm/purchase";
