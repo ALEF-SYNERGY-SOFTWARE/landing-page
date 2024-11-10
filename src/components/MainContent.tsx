@@ -9,30 +9,30 @@ export function MainContent() {
       <div className="items-center">
        <div className="lg:max-w-lg">
         <h2 className="text-red-500 font-serif">
-         Deseja gerenciar seu game indie / privado de forma rapida e facil?
+         Deseja gerenciar seu game indie / privado de forma rápida e fácil?
         </h2>
         <p className="mt-6 text-6xl text-white sm:text-5xl font-serif font-semibold">
-         Suba de nível !
+         Suba de nível!
         </p>
 
         <p className="mt-2 mb-2 text-lg/8 text-white font-serif font-light">
-         Sistema de Loja e-commerce integrado com game
+         Sistema de Loja e-commerce integrado com game;
         </p>
 
         <p className="mt-2 mb-2 text-lg/8 text-white font-serif font-light">
-         Sistema de Guild com senha
+         Sistema de Guild com senha;
         </p>
 
         <p className="mt-2 mb-2 text-lg/8 text-white font-serif font-light">
-         Sistema de notififacao via discord
+         Sistema de notificação via discord;
         </p>
 
         <p className="mt-2 mb-2 text-lg/8 text-white font-serif font-light">
-         Sistema de Atualizacao para launcher nativo e facil de usar
+         Sistema de Atualização para launcher nativo e fácil de usar;
         </p>
 
         <p className="mt-2 mb-2 text-lg/8 text-white font-serif font-light">
-         Tudo isso e muito mais !
+         Tudo isso e muito mais!
         </p>
 
         <span className="hidden sm:block">
@@ -67,7 +67,7 @@ export function MainContent() {
      A melhor solução para seu Game
     </p>
     <p className="text-white text-2xl font-serif font-semibold mt-2">
-     Plataforma customizavel
+     Plataforma customizável
     </p>
    </div>
 
