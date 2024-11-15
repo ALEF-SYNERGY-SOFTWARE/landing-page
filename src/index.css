@@ -6,6 +6,11 @@ body {
       background: #1A1A19;
 }
 
+a:focus, a:focus-visible {
+      outline: none;
+      box-shadow: none;
+    }
+
 .app-container {
       display: flex;
       flex-direction: column;
