@@ -1,11 +1,11 @@
 import { MainContent } from "../components/MainContent";
-import { Price } from "../components/Price";
+import { PriceCard } from "../components/PriceCard";
 
 export function Home() {
  return (
   <div>
    <MainContent />
-   <Price />
+   <PriceCard />
   </div>
  );
 }
