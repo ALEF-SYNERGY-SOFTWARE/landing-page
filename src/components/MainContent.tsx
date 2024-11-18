@@ -74,7 +74,7 @@ export function MainContent() {
    <div className="mx-auto">
     <div className="flex justify-center">
      <iframe
-      className="w-[512px] h-[512px] md:w-[1024px] md:h-[512px] md:mb-12 md:mt-12 mr-12 ml-12 md:m-0"
+      className="w-[512px] h-[300px] md:w-[1024px] md:h-[512px] md:mb-12 md:mt-12 mr-10 ml-10 md:m-0"
       src="https://player.vimeo.com/video/1025858770?h=33469dc7a2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
       allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
       title="Plataforma Game CMS - A melhor forma de  Gerir Jogos Online"
@@ -84,7 +84,7 @@ export function MainContent() {
 
     <div className="flex justify-center">
      <button
-      className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-28 md:px-10 border border-red-700 rounded md:w-full md:max-w-5xl"
+      className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-28 md:px-10 border border-red-700 rounded md:w-[910px] md:max-w-5xl"
       onClick={() => {
        window.open("https://invoice.gamecms.com.br/client/subscriptions/VolejRejNm/purchase")
  }}
