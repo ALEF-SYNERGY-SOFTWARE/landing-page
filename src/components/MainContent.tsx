@@ -3,8 +3,8 @@ import ImgBanner from "/assets/banner-game-cms.png";
 export function MainContent() {
  return (
   <>
-   <div className="flex py-2 px-2 md:py-20">
-    <div className="mx-auto max-w-7xl lg:px-8">
+   <div className="flex mx-auto max-w-7xl md:py-20 px-5">
+    <div className="max-w-7xl">
      <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
       <div className="items-center">
        <div className="lg:max-w-lg ">
@@ -62,7 +62,7 @@ export function MainContent() {
     </div>
    </div>
 
-   <div className="mt-8 text-center">
+   <div className="mt-8 text-center pt-10">
     <p className="md:text-lg text-red-500 font-serif font-semibold">
      A melhor solução para seu Game
     </p>
@@ -71,10 +71,10 @@ export function MainContent() {
     </p>
    </div>
 
-   <div className="mx-auto">
+   <div className="mx-auto px-5">
     <div className="flex justify-center">
      <iframe
-      className="w-[512px] h-[300px] md:w-[1024px] md:h-[512px] md:mb-12 md:mt-12 mr-10 ml-10 md:m-0"
+      className="w-[512px] h-[300px] md:w-[1280px] md:h-[512px] md:mb-12 md:mt-12 md:m-0"
       src="https://player.vimeo.com/video/1025858770?h=33469dc7a2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
       allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
       title="Plataforma Game CMS - A melhor forma de  Gerir Jogos Online"
@@ -84,7 +84,7 @@ export function MainContent() {
 
     <div className="flex justify-center">
      <button
-      className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-28 md:px-10 border border-red-700 rounded md:w-[910px] md:max-w-5xl"
+      className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-28 md:px-10 border border-red-700 rounded w-full md:w-[910px] md:max-w-5xl"
       onClick={() => {
        window.open("https://invoice.gamecms.com.br/client/subscriptions/VolejRejNm/purchase")
  }}

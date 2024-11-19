@@ -55,15 +55,15 @@ export function PriceCard() {
     Escolha um plano acessível que esteja repleto dos melhores recursos para
     envolver seu público.
    </p>
-   <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-3">
+   <div className="mx-auto mt-16 px-5 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-3">
     {planos.map((plano, index) => (
      <div
       key={index}
       className={`
               ${
                index === 1
-                ? "mx-auto flex flex-col my-[-1rem] justify-center w-[18rem] bg-red-500 min-h-[25rem] shadow-lg transform scale-110 z-20"
-                : "mx-auto w-[18rem] bg-white"
+                ? "mx-auto flex flex-col my-[-1rem] justify-center w-full bg-red-500 min-h-[25rem] shadow-lg transform scale-110 z-20"
+                : "mx-auto w-full bg-white"
               }
               rounded-3xl p-8
             `}

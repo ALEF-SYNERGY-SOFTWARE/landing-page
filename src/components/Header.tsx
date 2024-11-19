@@ -1,12 +1,12 @@
-import ImgAvatar from "/assets/avatar-gamecms.png";
+import ImgAvatar from "/assets/avatar-gamecms2.png";
 
 export function Header() {
  return (
   <header>
-   <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
+   <nav className="mx-auto flex max-w-7xl items-center justify-between mt-10 px-5">
     <div className="flex-shrink-0">
-     <a href="#" className="-m-1.5 p-1.5">
-      <img alt="" src={ImgAvatar} className="h-12 w-auto md:h-20" />
+     <a href="#" className="-m-1.5">
+      <img alt="" src={ImgAvatar} className="h-16 md:h-20" />
      </a>
     </div>
     <div className="flex-shrink-0">
